@@ -1,0 +1,25 @@
+const converted = {
+  '@import url("https://lavender-discord.github.io/Lavender/src/source.css")': true,
+  '@import url("https://lavender-discord.github.io/Lavender/skins/skin-loader/skin-loader.css")': true,
+  '@import url("https://lavender-discord.github.io/Lavender/skins/layout/lavender.css")': true,
+  '@import url("https://lavender-discord.github.io/Lavender/skins/codeblock/tokyo-night.css")': true,
+  '@import url("https://lavender-discord.github.io/Lavender/extensions/context-iconsax.css")': true,
+  '@import url("https://lavender-discord.github.io/Lavender/extensions/iconsax.css")': true,
+  '@import url("https://lavender-discord.github.io/Lavender/extensions/settings-iconsax.css")': true,
+  '@import url("https://lavender-discord.github.io/Lavender/design/user-actions/vertical-connected.css")': true,
+  '@import url("https://lavender-discord.github.io/Lavender/design/status-indicators/radial.css")': true,
+  ":root": {
+    "--rs-avatar-shape": "50%",
+    "--rs-phone-color": "var(--rs-online-color)",
+    "--rs-phone-visible": "block"
+  },
+  '#app-mount .wrapper-1VLyxH rect[fill="#43b581"], #app-mount .wrapper-1VLyxH foreighObject[mask*=mobile] + rect, #app-mount .wrapper-1VLyxH rect[fill*="var(--status-green"]': {
+    stroke: "var(--rs-online-color)"
+  },
+  ".scroller-3X7KbA>[aria-label]+.listItem-3SmSlK,\n.tutorialContainer-1pL9QS+.listItem-3SmSlK>.pill-1NRFie~*,\n.tree-3agP2X+.fixedBottomList-1yrBla": {
+    display: "none"
+  },
+  '[aria-label*="Send en gave"],\n[aria-label*="Ein Geschenk senden"],\n[aria-label*="Send a gift"],\n[aria-label*="Enviar un regalo"],\n[aria-label*="Envoyer un cadeau"],\n[aria-label*="Pošalji poklon"],\n[aria-label*="Invia un regalo"],\n[aria-label*="Siųsti dovaną"],\n[aria-label*="Ajándék küldése"],\n[aria-label*="Verstuur een cadeau"],\n[aria-label*="Wyślij prezent"],\n[aria-label*="Enviar um presente"],\n[aria-label*="Trimite un cadou"],\n[aria-label*="Lähetä lahja"],\n[aria-label*="Skicka en gåva"],\n[aria-label*="Tặng một món quà"],\n[aria-label*="Bir hediye gönder"],\n[aria-label*="Odeslat dárek"],\n[aria-label*="Στείλτε ένα δώρο"],\n[aria-label*="Изпрати подарък"],\n[aria-label*="Отправить подарок"],\n[aria-label*="Надіслати подарунок"],\n[aria-label*="ส่งของขวัญ"],\n[aria-label*="发送礼物"],\n[aria-label*="ギフトを贈る"],\n[aria-label*="發送禮物"],\n[aria-label*="선물 보내기"]': {
+    display: "none !important"
+  }
+}
